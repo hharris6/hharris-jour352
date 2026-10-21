@@ -1,0 +1,53 @@
+#content{
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+
+#intro{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: darkgreen;
+}
+
+h1{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen; /* I want ALL text that isn't p text to be green because I feel like green is an appropriate color for a golfing publication */
+
+}
+
+#byline{
+    font-size: 12px;
+    color: darkgreen;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px; /*NO GREEN*/
+}
+
+.subhead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    font-size: 20px;
+}
+
+img{
+    width: 100%;
+    height:auto;
+}
+
+#related-items{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: darkgreen;
+}
+
+#blockquote{
+    font-size: 1.5em;
+    font-style: italic;
+    color: darkgreen;
+    margin: 30px 0;
+}
+
