@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Council Approves New Bike Lanes</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #222222;
+  line-height: 1.5;
+}
+#header {
+  background-color: #990000;
+  color: #ffffff;
+  padding: 15px;
+}
+#sitename {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#main {
+  flex: 1 1 560px;
+  min-width: 0;
+}
+#sidebar {
+  flex: 0 1 260px;
+  align-self: flex-start;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+#sidebar a {
+  margin-top: 10px;
+}
+.headline {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.byline {
+  font-size: 14px;
+  color: #666666;
+  margin: 8px 0 16px;
+}
+#main img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.caption {
+  font-size: 13px;
+  color: #555555;
+  margin: 6px 0 16px;
+}
+.pullquote {
+  border-left: 4px solid #990000;
+  padding-left: 15px;
+  font-style: italic;
+  font-size: 20px;
+}
+.sidebarlink {
+  display: block;
+  width: 100%;
+  background-color: #990000;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  text-decoration: none;
+  padding: 10px 12px;
+  border: 2px solid #990000;
+  border-radius: 4px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.sidebarlink:hover,
+.sidebarlink:focus-visible {
+  background-color: #ffffff;
+  color: #990000;
+}
+.sidebarlink:focus-visible {
+  outline: 3px solid #222222;
+  outline-offset: 2px;
+}
+.sidebarlink:active {
+  background-color: #eeeeee;
+}
+#footer {
+  flex: 1 1 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+}
+
+/* Tablets and phones: stack sidebar under the article */
+@media (max-width: 800px) {
+  #sidebar {
+    flex: 1 1 100%;
+  }
+  .headline {
+    font-size: 30px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  #sitename {
+    font-size: 22px;
+  }
+  .headline {
+    font-size: 26px;
+  }
+  .pullquote {
+    font-size: 18px;
+  }
+}
+</style>
+</head>
+<body>
+<div id="header">
+  <div id="sitename">The Campus Chronicle</div>
+</div>
+<div id="container">
+  <div id="main">
+    <div class="headline">City Council Approves New Bike Lanes on Main Street</div>
+    <div class="byline">By Jordan Ellis | Oct. 26, 2026</div>
+    <img src="https://sdotblog.seattle.gov/wp-content/uploads/sites/10/2025/03/Image-01-scaled.jpg" alt="A cyclist rides along Main Street">
+    <div class="caption">A cyclist rides along Main Street on Monday. (Photo by Sam Rivera)</div>
+    <p>The City Council voted 5-2 on Monday to add protected bike lanes along a mile-long stretch of Main Street, a project supporters say will make the downtown corridor safer for cyclists and pedestrians.</p>
+    <p>Construction is expected to begin in the spring and cost about $1.2 million, according to the city's transportation department.</p>
+    <p class="pullquote">"This is about making sure everyone can get downtown safely, whether they drive, walk or bike."</p>
+    <p>Opponents argued the lanes would remove about 40 parking spaces used by local businesses.</p>
+  </div>
+  <div id="sidebar">
+    <b>More News</b>
+    <a class="sidebarlink" href="#">Student government election results are in</a>
+    <a class="sidebarlink" href="#">Library extends hours during finals week</a>
+    <a class="sidebarlink" href="#">Women's soccer clinches conference title</a>
+  </div>
+  <div id="footer">
+    &copy; 2026 The Campus Chronicle
+  </div>
+</div>
+</body>
+</html>
