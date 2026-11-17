@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Vis Graphs for Final</title>
+</head>
+<body>
+  <h1>Sea Surface Temperature Anomalies</h1>
+
+  <section>
+    <h2>Global anomalies, 1870 to July 2026</h2>
+    <iframe title="Sea Surface Temperature Anomalies by Year: Jan 1870 to Jul 2026" aria-label="Line chart" id="datawrapper-chart-ZpcWM" src="https://datawrapper.dwcdn.net/ZpcWM/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="477" data-external="1"></iframe>
+  </section>
+
+  <section>
+    <h2>El Niño 1+2 region, 1870 to July 2026</h2>
+    <iframe title="Sea Surface Temperature Anomalies by Year, El Nino 1+2: 1870-July 2026" aria-label="Line chart" id="datawrapper-chart-9lqaf" src="https://datawrapper.dwcdn.net/9lqaf/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="468" data-external="1"></iframe>
+  </section>
+
+  <script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+</body>
+</html>
